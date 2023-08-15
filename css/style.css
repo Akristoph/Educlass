@@ -26,15 +26,15 @@ nav{
 
 .nav-options ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
-    color: #aeaeae;
+    color: #c4c3c3;
     transition: all 0.5s;
     padding: 20px 15px;
 }
 
 .nav-options ul li a:hover{
-    color: #222;
+    color: #181818;
 }
 
 
@@ -57,22 +57,22 @@ nav{
 }
 
 .btn-a{
-    color: #f6f8f8;
+    color: #e2e6e6;
     font-weight: 500;
     padding: 20px 55px;
-    background: rgb(0, 110, 255);   border-radius: 50px;
+    background: rgb(10, 116, 253);   border-radius: 50px;
     display: inline-block;
-    box-shadow: 0px 14px 19px 8px #0000000D;
+    box-shadow: 0px 14px 19px 8px #1b1b1b0d;
    
 }
 
 .option img{
-    margin: 8px;
+    margin: 10px;
 }
 
 
 .btn-b{
-    color: black;
+    color: rgb(14, 13, 13);
     font-weight: 500;
     padding: 20px 20px;
     padding-left: 2px;
@@ -133,7 +133,6 @@ nav{
     width: 950px;
 }
 
-/* ....the body section and its contents.. */
 
 .body-column{
     margin-top: 150px;
@@ -165,7 +164,6 @@ nav{
 .icon-section{
     display: flex;
     align-items: center;
-    /* flex-direction: row; */
     margin-top: 40px;
     justify-content: space-between;
 }
@@ -207,15 +205,15 @@ nav{
     box-shadow: 0px 14px 19px 20px #0000000D;
 }
 
-.free-container{
+.empty{
     background: #aeaeae;
-    width: 650px;
+    width: 600px;
     height: 450px;
     border-radius: 15px;
     box-shadow: 0px 14px 19px 20px #0000000D;
 }
 
-/* .............divider text........... */
+
 
 
 .divider-text{
@@ -244,7 +242,7 @@ nav{
 
 
 
-/* ...........Grid section............ */
+
 
 
 
@@ -295,10 +293,10 @@ nav{
     margin-left: 120px;
 }
 
-/* .........School and parents section........... */
 
 
-.schl-prnt{
+
+.school-print{
     max-width: 100%;
     height: auto;
     margin-top: 20px;
@@ -318,7 +316,7 @@ nav{
 .background .img1{
     top: 70%;
     left: 0;
-    padding-left: 110px;
+    padding-left: 9rem;
     position: absolute;
     z-index: 1;
 
@@ -328,7 +326,7 @@ nav{
 .background .img2{
     top: 70%;
     right: 0;
-    padding-right: 110px;
+    padding-right: 9rem;
     position: absolute;
     z-index: 1;
 
@@ -377,8 +375,6 @@ nav{
     flex-direction: column;
     margin-top: 80px;
 }
-
-/* ....circle for image..... */
 
 .circle-img{
     background: #aeaeae;
@@ -435,9 +431,9 @@ nav{
     text-align: center;
 }
 
-/* plan section */
 
-.box-sub{
+
+.boxer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -468,10 +464,10 @@ nav{
     transition: transform 0.5s;
 }
 
-/* .box-content:hover{
+ .box-content:hover{
     transform: scale(1.09);
     -ms-transform: scale(1.09);
-} */
+} 
 
 .blue{
 background: rgb(0, 110, 255);    ;
@@ -571,7 +567,7 @@ background: rgb(0, 110, 255);    ;
 
 
 
-/* ....footer section....... */
+
 
 footer{
     background: #043c52;
